@@ -73,10 +73,10 @@ U 1 1 64040DFF
 P 5650 4400
 F 0 "ENID1" H 5830 4402 50  0000 L CNN
 F 1 "DB25_Male_MountingHoles" H 5830 4311 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-25_Male_Vertical_P2.77x2.84mm_MountingHoles" H 5650 4400 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-25_Male_Vertical_P2.77x2.84mm" H 5650 4400 50  0001 C CNN
 F 3 " ~" H 5650 4400 50  0001 C CNN
 	1    5650 4400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Notes 7400 7500 0    50   ~ 0
 Basic ENID Arduino Validation ExchangeRrrr
@@ -89,19 +89,19 @@ Text GLabel 4200 5000 2    50   Input ~ 0
 NoConn ~ 4200 5000
 NoConn ~ 4800 3800
 NoConn ~ 4200 3600
-Text GLabel 2850 3700 3    50   Input ~ 0
-WAIT_REQUEST
-Text GLabel 3050 3700 3    50   Input ~ 0
-INTERRUPT_ACKNOWLEDGE
-Text GLabel 2950 3700 3    50   Input ~ 0
-INTERRUPT_REQUEST
-Text GLabel 2350 3700 3    50   Input ~ 0
-IO_REQUEST
-Text GLabel 2450 3700 3    50   Input ~ 0
-READ
-Text GLabel 2650 3700 3    50   Input ~ 0
-WRITE
 Text GLabel 2150 3700 3    50   Input ~ 0
+WAIT_REQUEST
+Text GLabel 2450 3700 3    50   Input ~ 0
+INTERRUPT_ACKNOWLEDGE
+Text GLabel 2350 3700 3    50   Input ~ 0
+INTERRUPT_REQUEST
+Text GLabel 3050 3700 3    50   Input ~ 0
+IO_REQUEST
+Text GLabel 2950 3700 3    50   Input ~ 0
+READ
+Text GLabel 2850 3700 3    50   Input ~ 0
+WRITE
+Text GLabel 2650 3700 3    50   Input ~ 0
 CARD_SELECT
 $Comp
 L RaspyPie:Pico U1
@@ -114,29 +114,29 @@ F 3 "" H 2500 3000 50  0001 C CNN
 	1    2500 3000
 	0    -1   1    0   
 $EndComp
-Text GLabel 3150 2300 1    50   Input ~ 0
-DATA_0
-Text GLabel 3050 2300 1    50   Input ~ 0
-DATA_1
-Text GLabel 2950 2300 1    50   Input ~ 0
-DATA_2
-Text GLabel 2850 2300 1    50   Input ~ 0
-DATA_3
-Text GLabel 2650 2300 1    50   Input ~ 0
-DATA_4
-Text GLabel 2550 2300 1    50   Input ~ 0
-DATA_5
-Text GLabel 1850 2300 1    50   Input ~ 0
-ADDRESS_3
-Text GLabel 1950 2300 1    50   Input ~ 0
-ADDRESS_2
-Text GLabel 2050 2300 1    50   Input ~ 0
-ADDRESS_1
-Text GLabel 2150 2300 1    50   Input ~ 0
-ADDRESS_0
 Text GLabel 2350 2300 1    50   Input ~ 0
-DATA_7
+DATA_0
 Text GLabel 2450 2300 1    50   Input ~ 0
+DATA_1
+Text GLabel 2550 2300 1    50   Input ~ 0
+DATA_2
+Text GLabel 2650 2300 1    50   Input ~ 0
+DATA_3
+Text GLabel 2850 2300 1    50   Input ~ 0
+DATA_4
+Text GLabel 2950 2300 1    50   Input ~ 0
+DATA_5
+Text GLabel 2150 2300 1    50   Input ~ 0
+ADDRESS_3
+Text GLabel 2050 2300 1    50   Input ~ 0
+ADDRESS_2
+Text GLabel 1950 2300 1    50   Input ~ 0
+ADDRESS_1
+Text GLabel 1850 2300 1    50   Input ~ 0
+ADDRESS_0
+Text GLabel 3150 2300 1    50   Input ~ 0
+DATA_7
+Text GLabel 3050 2300 1    50   Input ~ 0
 DATA_6
 $Comp
 L power:GND #PWR07
