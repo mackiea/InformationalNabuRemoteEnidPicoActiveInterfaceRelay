@@ -1,8 +1,14 @@
 # InformationalNabuRemoteEnidPicoActiveInterfaceRelay
-Allows interfacing from the NABU PC to the Raspberry Pi Pico via ENID (github.com/mackiea/ExternalNabuInterfaceDevice)
+Allows interfacing from the NABU PC to the Raspberry Pi Pico via [ENID] (github.com/mackiea/ExternalNabuInterfaceDevice).
 ![Schematic](schematic.png)
 
 ![PCB](pcb.png)
+
+## Features
+- 5 unused GPIO signals exposed
+- Can be powered from the ENID 5V supply or from USB
+
+## Pinout
 
 | ENID | Pico GPIO Pin | Description           |
 | ---- | ------------- | -----------           |
